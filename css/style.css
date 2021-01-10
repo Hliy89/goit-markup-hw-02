@@ -1,0 +1,105 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;  
+}
+
+
+/* Шапка сайта */
+.site-nav {
+    background-color: #ffffff;
+}
+
+.logo-title {
+    color: #212121;
+}
+
+.site-nav-logo {
+    color: var(--accent-color);
+}
+
+.site-nav-list {
+    color: var(--title-text-color);
+}
+
+.contacts {
+    color: var(--primary-text-color)
+}
+
+.contacts-mail:hover {
+    color: var(--accent-color);
+}
+
+.contacts-number:hover {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features Особенности */
+
+.features .title {
+    color: var(--title-text-color);
+}
+
+.title-description {
+    color: var(--primary-text-color);
+}
+
+/* Work */
+
+
+
+/* Team */
+
+.team-list-title {
+    color: var(--title-text-color);
+}
+
+.title-list-profession {
+    color: var(--primary-text-color);
+}
+
+/* Footer */
+
+
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+
+
+
+
+
+
+/* цвет основного текста #757575 */
+/* вторичный цвет #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+
+/* фон шапки #FFFFFF */
+/* фон героя и футера #2F303A */
+/* вторичные фоны тела #E5E5E5 #F5F4FA */
+
