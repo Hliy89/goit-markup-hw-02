@@ -1,0 +1,98 @@
+/* цвет основного текста #212121 */
+/* вторичный текст #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* цвет контактов футера rgba(255, 255, 255, 0.6) */
+
+/* фон шапки #FFFFFF */
+/* фон секции под героем #E5E5E5 */
+/* фон секции на футером #F5F4FA */
+/* фон героя и футера #2F303A */
+
+/* Стили index.html */
+
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+.page {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+.logo {
+  color: var(--primary-text-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+
+.contacts .link {
+  color: var(--second-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--white-color);
+}
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+}
+
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* Features Особенности */
+
+.feature-text {
+  color: var(--second-text-color);
+}
+
+/* Work Чем мы занимаемся */
+
+/* Team Наша команда */
+
+.team-name {
+  color: var(--primary-text-color);
+}
+
+.team-profession {
+  color: var(--second-text-color);
+}
