@@ -21,16 +21,29 @@
 .page {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 /* Header */
 
+.header {
+  background-color: #ffffff;
+}
+
 .logo {
   color: var(--primary-text-color);
+  font-family: Raleway, curcive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .logo-web {
@@ -41,6 +54,10 @@
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -56,6 +73,10 @@
 
 .contacts .link {
   color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
 }
 
 .contacts .link:hover,
@@ -65,8 +86,17 @@
 
 /* Hero */
 
+.section-hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .button {
@@ -81,18 +111,127 @@
 
 /* Features Особенности */
 
-.feature-text {
-  color: var(--second-text-color);
+.feature-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
-/* Work Чем мы занимаемся */
+.feature-text {
+  color: var(--second-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
 
 /* Team Наша команда */
 
+.section-team {
+  background-color: #f5f4fa;
+}
+
 .team-name {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  text-decoration: none;
 }
 
 .team-profession {
   color: var(--second-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Footer Подвал */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-color {
+  color: #ffffff;
+}
+
+.address {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.number {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+/* Стили Portfolio.html */
+
+.sectin-portfolio {
+  background-color: #e5e5e5;
+}
+
+.page-portfolio {
+  background-color: #e5e5e5;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* Button */
+
+.button .secondary {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  font-family: inherit;
+}
+
+.button .secondary:hover,
+.button .secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.works .title {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.works .button-name {
+  color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.8;
 }
