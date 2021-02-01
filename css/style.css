@@ -136,6 +136,10 @@
 
 /* Team Наша команда */
 
+.team-link {
+  text-decoration: none;
+}
+
 .section-team {
   background-color: #f5f4fa;
 }
@@ -241,4 +245,8 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 1.8;
+}
+
+.works-link {
+  text-decoration: none;
 }
